@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 1100px;
+  max-height: 900px;
+}
+
+.heading-wrapper {
+  position: relative;
+  top: 20%;
+}
+
+img {
+  margin-top: 20px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.overlay_heading1 {
+  position: absolute;
+  top: 7.5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 92%;
+  width: 100%;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(194, 186, 186, 0.502) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.overlay_heading2 {
+  position: absolute;
+  top: 1.75%;
+  bottom: 0;
+  left: 33.65%;
+  right: 0;
+  height: 47.4%;
+  width: 32.6%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 251, 251, 0.63) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.overlay_heading3 {
+  position: absolute;
+  top: 1.75%;
+  bottom: 0;
+  left: 67.3%;
+  right: 0;
+  height: 21%;
+  width: 32.6%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(142, 175, 236, 0.502) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.overlay_heading4 {
+  position: absolute;
+  top: 3.6%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 95.5%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(204, 131, 89, 0.502) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.overlay_heading5 {
+  position: absolute;
+  top: 3.6%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 42.5%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(110, 166, 199, 0.502) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.overlay_heading6 {
+  position: absolute;
+  top: 3.6%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(88, 146, 223, 0.502) 40%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  transition-delay: 0.1s;
+  transition-duration: 1.4s;
+  z-index: 100;
+}
+
+.item1:hover .overlay_heading1 {
+  opacity: 1;
+}
+
+.item2:hover .overlay_heading2 {
+  opacity: 1;
+}
+
+.item3:hover .overlay_heading3 {
+  opacity: 1;
+}
+
+.item4:hover .overlay_heading4 {
+  opacity: 1;
+}
+
+.item5:hover .overlay_heading5 {
+  opacity: 1;
+}
+
+.item6:hover .overlay_heading6 {
+  opacity: 1;
+}
+
+.item1 {
+  position: relative;
+  height: 46%;
+}
+
+.sub_heading {
+  position: relative;
+  top: 12%;
+  left: 5%;
+}
+
+.sub_text {
+  position: relative;
+  top: 15%;
+  left: 5%;
+}
+
+.item4 {
+  position: relative;
+  bottom: 56%;
+}
+
+.item5 {
+  position: relative;
+  bottom: 5%;
+}
+
+.item6 {
+  position: relative;
+  bottom: 57%;
+}
+
+.footer {
+  position: relative;
+  top: 5%;
+  right: 70%;
+}
